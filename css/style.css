@@ -1,5 +1,5 @@
 body {
-	background-color: green;
+	background: url(../img/banksymovil.jpg);
 }
 .caja {
 	width: 100%;
@@ -11,7 +11,7 @@ body {
 	text-align: center;
 	margin: 1em;
     flex-direction: column;
-    background-color: darkorange;
+    background-color: #aba097;
 }
 ul {
 	list-style-type: none;
@@ -25,10 +25,23 @@ div ul li a {
 h1, h2, h3 {
 	text-align: center;
 }
+.contenedor {
+	padding: 2em;
+}
+
+a: link {}
+a: hover {}
+a: active {}
+a: visited {}
 
 
 @media (min-width: 960px){
+
+	body {
+		background: url(../img/banksydeckstop.jpg);
+	}
 	.caja {
 		max-width: 100%;
 	}
+
 }
