@@ -1,5 +1,6 @@
 body {
 	background: url(../img/banksymovil.jpg);
+	text-align: center;
 }
 .caja {
 	width: 100%;
@@ -26,6 +27,16 @@ h1, h2, h3 {
 	text-align: center;
 }
 .contenedor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2em;
+	height: 50%;
+}
+.borde {
+	border: 5px solid gray;
+}
+article {
 	padding: 2em;
 }
 
@@ -42,6 +53,13 @@ a: visited {}
 	}
 	.caja {
 		max-width: 100%;
+	}
+	.columnas{
+        display: flex;
+        justify-content: center;
+	    align-items: center;
+        height: 50%;
+
 	}
 
 }
