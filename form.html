@@ -25,9 +25,32 @@
 	</div>
     </header>
 
-    <h1> Formulario para comunicarse con bansky </h1>
+    <br>
+    <!-- form base -->
 
+    <form id="emailForm" onsubmit="return enviarCorreo();">
+    <label for="email">Correo electrónico:</label>
+    <br>
+    <input type="email" id="email" name="email" required placeholder="ejemplo@correo.com">
+    <br><br>
+
+    <label for="subject">Asunto:</label>
+    <br>
+    <input type="text" id="subject" name="subject" required placeholder="Asunto del correo">
+    <br><br>
+
+    <label for="message">Mensaje:</label>
+    <br>
+    <textarea id="message" name="message" required placeholder="Escribe tu mensaje aquí"></textarea>
+    <br><br>
+
+    <button type="submit"> Enviar </button>
+    <button type="reset" onclick="alert('Se borro el formulario')"> Borrar </button>
+
+  </form>
+  <br>
  <footer> Para  contactarse con nosotros escribirnos al <a href="mailto:fundaciongrafity@gmail.com"> fundaciongrafity@gmail.com </a> </footer>
     </div>
 </body>
+<script src="js/contact.js"></script>
 </html>
