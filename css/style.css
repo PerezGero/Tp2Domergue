@@ -52,18 +52,6 @@ footer {
     text-align: center;
 }
 
-a: link {
-	color: black;
-}
-a: hover {
-	color: darkblue;
-}
-a: active {
-	color: green;
-}
-a: visited {
-	color: darkred;
-}
 /* estilos del form em la misma hoja*/
 form {
 	background: #EEE;

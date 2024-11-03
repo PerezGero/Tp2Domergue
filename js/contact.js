@@ -10,6 +10,6 @@ function enviarCorreo() {
       }
 
       // Confirmación de envío
-      alert("Correo enviado");
+      alert("El correo a sido enviado");
       return true;
     }

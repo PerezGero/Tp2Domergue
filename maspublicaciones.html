@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> Banksy </title>
+	<title> Publicaciones adicionales </title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="caja">
-	<header>
+	<div class="caja" id="claroscuro">
+	<header><br>
+		
+		<button onclick="cambiarColor()" class="btn btn-outline-secondary">Claroscuro</button><br>
 		<br>
 		<img src="img/lanzador-flores.jpg" class="borde" alt=" El lanzador de flores es una obra creada con platillas y spray en Beit Sahour en Cisjordania ">
 		<h2> Navegador 🔍︎</h2>
 
 	<div class="navegador">
 		<ul>
-			<li><a href="index.html"> Principal </a></li>
-			<li><a href="obras.html"> Obras originales </a></li>
-			<li><a href="grafity.html"> Grafity </a></li> 
-			<li><a href="form.html"> Contacto </a></li>
+			<li><a href="index.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Principal </a></li>
+			<li><a href="obras.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Obras originales </a></li>
+			<li><a href="grafity.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Grafity </a></li> 
+			<li><a href="form.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Contacto </a></li>
 		</ul>
 	</div>
 	<div class="navegador">
 		<ul>
-			<li><a href="galeria.html"> Galeria de obras </a></li>
-			<li><a href="#"> Otras publicaciones </a></li>
+			<li><a href="galeria.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Galeria de obras </a></li>
+			<li><a href="#" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Otras publicaciones </a></li>
 		</ul>
 	</div>
     </header>
@@ -40,7 +42,7 @@
     			<ul>
     				<li> • Banging your head against a brick wall ("Golpeando tu cabeza contra una pared de ladrillo"), libro publicado en blanco y negro en 2001. </li>
     				<li> • Existencilism (de existencialism —"existencialismo"— y stencil —"estarcido"—), (2002). </li>
-    				<li> • Cut it Out ("Córtatelo"- aludiendo a la práctica del uso del bisturí al hacer los "stencils", las plantillas) (2004). </li><br>
+    				<li> • Cut it Out ("Córtatelo"- aludiendo a la práctica del uso del bisturí al hacer los "stencils", las plantillas) (2004). </li>
     				<li> • Wall and piece (2005). </li>
     			</ul>
     		</article>
@@ -71,5 +73,6 @@
     </div>
  <footer> Para  contactarse con nosotros escribirnos al <a href="mailto:fundaciongrafity@gmail.com"> fundaciongrafity@gmail.com </a> </footer>
     </div>
+    <script src="js/claroscuro.js"></script>
 </body>
 </html>

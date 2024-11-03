@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title> Banksy </title>
@@ -9,8 +10,10 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="caja">
-	<header>
+	<div class="caja" id="claroscuro">
+	<header><br>
+        
+        <button onclick="cambiarColor()" class="btn btn-outline-secondary">Claroscuro</button><br>
         <br>
 		<img src="img/lanzador-flores.jpg" class="borde" alt=" El lanzador de flores es una obra creada con platillas y spray en Beit Sahour en Cisjordania ">
 
@@ -18,33 +21,33 @@
 
 	<div class="navegador">
 		<ul>
-			<li><a href="#"> Principal </a></li>
-			<li><a href="obras.html"> Obras originales </a></li>
-			<li><a href="grafity.html"> Grafity </a></li> 
-			<li><a href="form.html"> Contacto </a></li>
+			<li><a href="#" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Principal </a></li>
+			<li><a href="obras.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Obras originales </a></li>
+			<li><a href="grafity.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Grafity </a></li> 
+			<li><a href="form.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"> Contacto </a></li>
 		</ul>
 	</div>
     </header>
 
-    <div class="contenedor">
+    <div class="contenedor" >
 
     	<section class="columnas">
     		<article>
 
-    <img src="img/chica-globo.jpeg" class="borde" alt=" Grafiti de una niña y su globo atribuida a Banksy, en Shoreditch, Reino Unido">
+           <img src="img/chica-globo.jpeg" class="borde" alt=" Grafiti de una niña y su globo atribuida a Banksy, en Shoreditch, Reino Unido">
     
-    <h2> Banksy </h2>
-    <hr>
-    <p> Banksy es el seudónimo de un artista británico llamado Robbie Banks, que posiblemente haya nacido en el entorno de Bristol a mediados de la década de 1970. Participó en el documental Salida por la tienda de regalos, pero se desconocen otros detalles de su biografía. Según un estudio de la Universidad Queen Mary de Londres, publicado en marzo de 2016, Banksy podría ser un hombre llamado Robin Cunningham. También se ha especulado que Banksy sea el suizo Maître de Casson. Maître de Casson lo niega en su sitio web.4 </p>
+           <h2> Banksy </h2>
+           <hr>
+           <p> Banksy es el seudónimo de un artista británico llamado Robbie Banks, que posiblemente haya nacido en el entorno de Bristol a mediados de la década de 1970. Participó en el documental Salida por la tienda de regalos, pero se desconocen otros detalles de su biografía. Según un estudio de la Universidad Queen Mary de Londres, publicado en marzo de 2016, Banksy podría ser un hombre llamado Robin Cunningham. También se ha especulado que Banksy sea el suizo Maître de Casson. Maître de Casson lo niega en su sitio web.4 </p>
 
-    <h2> Biografía </h2>
-    <hr>
-    <p> Nacido en 1973 o 1974, creció en Bristol. Se vio implicado en el grafiti durante el boom del aerosol de esta ciudad a finales de los 80. Su trabajo, en su gran mayoría piezas satíricas sobre política, cultura pop, moralidad y etnias, combina la escritura con grafitis, estarcidos y plantillas. Su técnica de estarcido es similar a la de Blek le Rat y a la de los miembros de la banda de anarco-punk Crass. Banksy reconoció la influencia de Blek le Rat, diciendo: "Cada vez que creo que he pintado algo ligeramente original, me doy cuenta de que Blek le Rat lo hizo mejor, solo que un año antes". Sus obras se han hecho populares al ser visibles en varias ciudades del mundo, especialmente en Londres. </p>
+           <h2> Biografía </h2>
+           <hr>
+           <p> Nacido en 1973 o 1974, creció en Bristol. Se vio implicado en el grafiti durante el boom del aerosol de esta ciudad a finales de los 80. Su trabajo, en su gran mayoría piezas satíricas sobre política, cultura pop, moralidad y etnias, combina la escritura con grafitis, estarcidos y plantillas. Su técnica de estarcido es similar a la de Blek le Rat y a la de los miembros de la banda de anarco-punk Crass. Banksy reconoció la influencia de Blek le Rat, diciendo: "Cada vez que creo que he pintado algo ligeramente original, me doy cuenta de que Blek le Rat lo hizo mejor, solo que un año antes". Sus obras se han hecho populares al ser visibles en varias ciudades del mundo, especialmente en Londres. </p>
 
-          </article>
-          <article>
-          	<img src="img/gatito-inglaterra.jpg" class="borde" alt=" Grafiti atribuida a Banksy, en liverpool, Reino Unido">
-          </article>
+           </article>
+           <article>
+           <img src="img/gatito-inglaterra.jpg" class="borde" alt=" Grafiti atribuida a Banksy, en liverpool, Reino Unido">
+           </article>
         </section>
     </div>
     <hr>
@@ -84,5 +87,6 @@
 
  <footer> Para  contactarse con nosotros escribirnos al <a href="mailto:fundaciongrafity@gmail.com"> fundaciongrafity@gmail.com </a> </footer>
     </div>
+    <script src="js/claroscuro.js"></script>
 </body>
 </html>
